@@ -6,52 +6,39 @@
     <title>Random Colorful Background</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            animation: changeColor 5s infinite alternate;
+            background-image: url(images/background.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
         }
-
-        @keyframes changeColor {
-            0% {
-                background: linear-gradient(45deg, #FF3366, #FFCC33);
-            }
-            25% {
-                background: linear-gradient(45deg, #4CAF50, #FF3366);
-            }
-            50% {
-                background: linear-gradient(45deg, #3498db, #e74c3c);
-            }
-            75% {
-                background: linear-gradient(45deg, #9b59b6, #2ecc71);
-            }
-            100% {
-                background: linear-gradient(45deg, #FFCC33, #3498db);
-            }
+        h1{
+            color: white;
+            font-size: 40px;
+            position: relative;
+            left: 7%;
         }
-
-        #content {
+        ul{
+            color: rgb(236, 242, 247);
             text-align: center;
-            padding: 50px;
-            color: #fff;
+            
+        }
+        a{
+            color: aliceblue;
+        }
+        ul :hover{
+            color: blue;
         }
 
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-        }
     </style>
 </head>
 <body>
+    <h1>Mahal Na Mahal Ko Siya Kaso Hanggang Panaginip Ko Lang Pala</h1>
 
-<div id="content">
-    <h1>Random Colorful Background</h1>
-    <p>This background changes color and animates!</p>
-</div>
+    <ul>
+        <a href="page3.html">Click Here Para Malaman Niyo Kung Gaano Ko Siya Ka Mahal</a>
+    </ul>
+    
+
 
 </body>
 </html>
